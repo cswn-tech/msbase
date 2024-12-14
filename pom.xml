@@ -6,7 +6,15 @@
 
   <groupId>org.cswntech</groupId>
   <artifactId>msbase</artifactId>
-  <version>1.0.0</version>
+  <version>LATEST</version>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/cswn-tech/msbase</url>
+    </repository>
+  </distributionManagement>
 
   <name>msbase</name>
   <description>A simple msbase.</description>
